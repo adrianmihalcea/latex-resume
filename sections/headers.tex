@@ -1,0 +1,27 @@
+\def \fullname {Adrian Mihalcea}
+\def \subtitle {}
+
+\def \linkedinicon {\faLinkedin}
+\def \linkedinlink {https://www.linkedin.com/in/adrianmihalcea}
+\def \linkedintext {/adrianmihalcea}
+
+\def \phoneicon {\faPhone}
+\def \phonetext {+00-000-00000000}
+
+\def \emailicon {\faEnvelope}
+\def \emaillink {mailto:placeholder}
+\def \emailtext {placeholder}
+
+\def \githubicon {\faGithub}
+\def \githublink {https://github.com/adrianmihalcea}
+\def \githubtext {/adrianmihalcea}
+
+\def \headertype {\doublecol} % \singlecol or \doublecol
+
+\def \linkedin {\linkedinicon \hspace{3pt}\href{\linkedinlink}{\linkedintext}}
+\def \phone {\phoneicon \hspace{3pt}{ \phonetext}}
+\def \email {\emailicon \hspace{3pt}\href{\emaillink}{\emailtext}}
+\def \github {\githubicon \hspace{3pt}\href{\githublink}{\githubtext}}
+
+\headertype{\linkedin}{\github}{}{\phone}{\email}{} % Set the order of items here
+\vspace{-10pt} % Set a negative value to push the body up, and the opposite
